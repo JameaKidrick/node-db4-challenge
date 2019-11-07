@@ -1,13 +1,25 @@
 
 exports.seed = function(knex) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
-    .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
+  return knex('recipe_ingredients').insert([
+    {RecipeId: 1, IngredientId: 1},
+    {RecipeId: 1, IngredientId: 2},
+    {RecipeId: 1, IngredientId: 3},
+    {RecipeId: 1, IngredientId: 4},
+    {RecipeId: 1, IngredientId: 5},
+    {RecipeId: 1, IngredientId: 6},
+    {RecipeId: 1, IngredientId: 7},
+    {RecipeId: 2, IngredientId: 8},
+    {RecipeId: 1, IngredientId: 9},
+    {RecipeId: 1, IngredientId: 10},
+    {RecipeId: 1, IngredientId: 11},
+    {RecipeId: 1, IngredientId: 12},
+    {RecipeId: 1, IngredientId: 13},
+    {RecipeId: 2, IngredientId: 14},
+    {RecipeId: 2, IngredientId: 15},
+    {RecipeId: 2, IngredientId: 16},
+    {RecipeId: 2, IngredientId: 17},
+    {RecipeId: 2, IngredientId: 18},
+    {RecipeId: 2, IngredientId: 19},
+    {RecipeId: 2, IngredientId: 20}
+  ]);
 };

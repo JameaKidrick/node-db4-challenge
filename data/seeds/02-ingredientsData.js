@@ -1,13 +1,35 @@
 
 exports.seed = function(knex) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
-    .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
+  return knex('ingredients').insert([
+    {name: 'cup of butter', quantity: 0.5},
+    {name: 'cup of sugar', quantity: 0.5},
+    {name: 'egg', quantity: 2},
+    {name: 'cup of flour', quantity: 0.75},
+    {name: 'teaspoon of baking soda', quantity: 0.5},
+    {name: 'teaspoon of baking powder', quantity: 1},
+    {name: 'teaspoon of vanilla extract', quantity: 2},
+    {name: 'cup of milk', quantity: 0.5},
+    {name: 'tablespoon of milk', quantity: 3},
+    {name: 'royal icing', quantity: 1},
+    {name: 'large egg white', quantity: 2},
+    {name: 'cup of powdered sugar', quantity: 3},
+    {name: 'teaspoon of lemon juice', quantity: 1},
+    // {name: 'cup of chocolate chips', quantity: 1},
+    // {name: 'cup of brown sugar', quantity: 1},
+    {name: 'teaspoon of brown sugar', quantity: 1},
+    // {name: 'teaspoon of salt', quantity: 1},
+    // {name: 'teaspoon of almond extract', quantity: 1},
+    // {name: 'ounce of shredded coconut', quantity: 1},
+    // {name: 'cup of heavy cream', quantity: 1},
+    // {name: 'tablespoon grated ginger', quantity: 1},
+    // {name: 'cinnamon stick', quantity: 1},
+    // {name: 'whole clove', quantity: 1},
+    // {name: 'large egg yolk', quantity: 1},
+    {name: 'cup of strong coffee', quantity: 0.25},
+    {name: 'cup of pumpkin puree', quantity: 0.25},
+    {name: 'teaspoon of ground cinnamon', quantity: 0.5},
+    {name: 'teaspoon of ground clove', quantity: 0.25},
+    {name: 'teaspoon of ground ginger', quantity: 0.25},
+    {name: 'cup of coffee ice cream', quantity: 3}
+  ]);
 };
