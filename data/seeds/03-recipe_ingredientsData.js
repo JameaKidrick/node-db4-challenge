@@ -20,6 +20,11 @@ exports.seed = function(knex) {
     {RecipeId: 2, IngredientId: 17},
     {RecipeId: 2, IngredientId: 18},
     {RecipeId: 2, IngredientId: 19},
-    {RecipeId: 2, IngredientId: 20}
+    {RecipeId: 2, IngredientId: 20},
+    {RecipeId: 3, IngredientId: 21},
+    {RecipeId: 3, IngredientId: 8},
+    {RecipeId: 3, IngredientId: 22},
+    {RecipeId: 3, IngredientId: 7},
+    {RecipeId: 3, IngredientId: 17}
   ]);
 };

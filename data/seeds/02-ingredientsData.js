@@ -14,22 +14,14 @@ exports.seed = function(knex) {
     {name: 'large egg white', quantity: 2},
     {name: 'cup of powdered sugar', quantity: 3},
     {name: 'teaspoon of lemon juice', quantity: 1},
-    // {name: 'cup of chocolate chips', quantity: 1},
-    // {name: 'cup of brown sugar', quantity: 1},
     {name: 'teaspoon of brown sugar', quantity: 1},
-    // {name: 'teaspoon of salt', quantity: 1},
-    // {name: 'teaspoon of almond extract', quantity: 1},
-    // {name: 'ounce of shredded coconut', quantity: 1},
-    // {name: 'cup of heavy cream', quantity: 1},
-    // {name: 'tablespoon grated ginger', quantity: 1},
-    // {name: 'cinnamon stick', quantity: 1},
-    // {name: 'whole clove', quantity: 1},
-    // {name: 'large egg yolk', quantity: 1},
     {name: 'cup of strong coffee', quantity: 0.25},
     {name: 'cup of pumpkin puree', quantity: 0.25},
     {name: 'teaspoon of ground cinnamon', quantity: 0.5},
     {name: 'teaspoon of ground clove', quantity: 0.25},
     {name: 'teaspoon of ground ginger', quantity: 0.25},
-    {name: 'cup of coffee ice cream', quantity: 3}
+    {name: 'cup of coffee ice cream', quantity: 3},
+    {name: 'cup of vanilla ice cream', quantity: 4},
+    {name: 'tablespoon of brown sugar', quantity: 1}
   ]);
 };

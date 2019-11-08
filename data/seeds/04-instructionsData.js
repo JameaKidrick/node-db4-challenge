@@ -8,5 +8,7 @@ exports.seed = function(knex) {
     {step: 5, instructions: `Royal Icing: Combine the egg whites and confectioners' sugar in a medium-size mixing bowl and whip with an electric mixer on medium speed until opaque and shiny, about 5 minutes. Whisk in the lemon juice, this will thin out the icing. Beat for another couple of minutes until you reach the right spreading consistency for the cupcakes.`, recipeId: 1},
     {step: 1, instructions: 'Stir brown sugar into coffee to dissolve. Let cool.', recipeId: 2},
     {step: 2, instructions: 'Add coffee mixture, milk, pumpkin, cinnamon, cloves, and ginger to the jar of a blender. Add ice cream and pulse until smooth. Divide between serving glasses and garnish with a few coffee beans if desired.', recipeId: 2},
+    {step: 1, instructions: 'Place all ingredients in blender and blend until smooth.', recipeId: 3},
+    {step: 2, instructions: 'Pour into individual cups and top with an additional sprinkle of ground cinnamon if desired.', recipeId: 3}
   ]);
 };
